@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-Bookstore-8D11F229-7FA5-46B6-93A2-E3AEAE67194F</UserSecretsId>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.9" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.9" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
